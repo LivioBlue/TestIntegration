@@ -1,0 +1,432 @@
+
+  @font-face {
+    font-family: 'Kanit';
+    src: url('../ex/Fonts/Kanit/Kanit-Regular.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Open-sans';
+    src: url('../ex/Fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+  
+  /* Utilisation de la police personnalisée */
+  body {
+    font-family: 'MaPolice', sans-serif;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.header-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.header-content {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+
+}
+
+#top {
+  background-color: #333333BF;
+  margin: 0;
+  padding: 0;
+  max-height: 62px;
+  display: flex;
+  justify-content: space-between;
+  position: sticky; /* Rend l'élément sticky */
+  top: 0; /* Fixe l'élément en haut de la page */
+  z-index: 100; /* Assure que l'élément reste au-dessus du contenu */
+}
+
+#top img {
+  height: 24px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 7%;
+}
+
+#top p {
+  font-size: 16px;
+  margin-right: 7%;
+  font-family: 'kanit';
+}
+
+
+
+section.sectiontitle {
+    margin-top: 20%;
+    margin-left: 278px;
+}
+section.sectiontitle h2 {
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: -40px;
+}
+section.sectiontitle p {
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family:'kanit';
+}
+
+nav {
+    background-color:#333333BF ;
+    text-align: right;
+    height: 236px;
+    width: 149px;
+    position: fixed; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    z-index: 999; 
+    right: 0; 
+}
+
+
+
+nav li, a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family:'kanit';
+    
+}
+
+div .header-content{
+    position: relative;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-block-start: 32px;
+    margin-block-end: 34px;
+}
+  
+  .menu li {
+    padding-right: 20px; 
+    margin-bottom: 10px;
+  }
+  
+  .menu li::after {
+    content: "•"; 
+    margin-left: 15px;
+  }
+
+  .scroll {
+    position: absolute;
+    bottom: 25px;
+    right: 50%;
+  }
+
+
+#main {
+    height: 800px;
+    display: flex;
+    align-items: center; 
+  }
+  .phototitle {
+    color: #FFFFFF;
+    font-family: 'kanit';
+    font-size: 34px;
+    font-weight: 600;
+    letter-spacing: 6.8px;
+    position: absolute;
+    left: 85px;
+    margin-bottom: 600px;
+  }
+.sectionleft {
+  width: 100%;
+  margin-left: 10%;
+  margin-right: 5%;
+  font-family: 'Kanit';
+  margin-bottom: 12%;
+}
+.sectionleft h4{
+    font-family: 'Kanit';
+    font-weight:300;
+    font-size: 20px;
+    color: #6D727B ;  
+    margin: 0;
+}
+.sectionleft h3{
+    font-family: 'Kanit';
+    font-weight: 600;
+    font-size: 27px;
+    color: #333333 ;
+    margin-top: 0;
+}
+
+.sectionright{
+    margin-right: 15%;
+}
+.sectionright p {
+    font-family: 'Open-sans';
+    font-size: 18px !important;
+}
+  
+
+
+  button.maincta {
+    color: #FFFFFF;
+    background-color: #E3000B;
+    border: none;
+    height: 52px;
+    width: 245px;
+    font-family: 'kanit';
+    font-size: 18px;
+    border-radius: 26px;
+    font-weight: 300;
+    margin-right: 35px;
+    margin-top: 15px;
+  }
+
+  button.secondcta{
+    color: #333333;
+    background-color: #FFFFFF;
+    border: solid 3px #333333;
+    height: 52px;
+    width: 335px;
+    font-family: 'kanit';
+    font-size: 18px;
+    border-radius: 26px;
+    font-weight: 300;
+  }
+
+  #section2 {
+    display: flex;
+    align-items: center; 
+    height: 750px ;
+  }
+
+  .imgsection img {
+    height: 750px;
+    width: 745px;
+    object-fit: cover;
+  }
+ 
+  .txtsection {
+    margin-right: 235px;
+    margin-left: 115px;
+    z-index: 999;
+  }
+
+   
+  .txtsection h3 {
+    font-family: 'kanit';
+    font-weight: 600;
+    font-size: 34px;
+    margin: 0;
+  }
+
+  .txtsection p {
+    font-family: 'Open-sans';
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 0.54px;
+  }
+
+  .separator{
+    position: absolute;
+    transform: rotate(180deg) scaleY(-1);
+    margin-left: 42%;
+    margin-bottom: 3px;
+    z-index: 0;
+  }
+
+  #section3 {
+    height: 1000px;
+  }
+  #section3 h3 {
+    font-family: 'kanit';
+    font-weight: 600;
+    letter-spacing: 6.8px;
+    text-transform: uppercase;
+    font-size: 34px;
+    margin-left: 278px;
+    padding-top: 105px;
+    margin-bottom: 55px;
+  }
+
+  #section3 p {
+    letter-spacing:0.54px ;
+    font-size: 18px;
+    font-family: 'Open-sans';
+  }
+  #txtdmax{
+    width: 795px;
+    height: 234px;
+    margin: auto;
+  }
+
+  #carrousel {
+    display: flex;
+    justify-content: center;
+  }
+  #carrousel img {
+    object-fit: contain;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-text1, .image-text3{
+    position: absolute;
+    top: -15px;
+    left: 95px;
+    color: #333333 ;
+    opacity: 55%;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'kanit';
+    text-transform: uppercase;
+}
+.image-text2 {
+    position: absolute;
+    top: -15px;
+    left: 170px;
+    color: #E3000B; /* Couleur du texte */
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'kanit';
+    text-transform: uppercase;
+
+}
+
+img.chevright {
+  height: 50px;
+  width: 26px;
+  position: absolute;
+  transform: rotate(-180deg);
+  margin-top: 205px;
+  left: 780px;
+}
+
+img.chevleft {
+    height: 50px;
+    position: absolute;
+    margin-top: 205px;
+    margin-left: 458px;
+
+}
+
+#section4 {
+  display: flex;
+  align-items: center;
+  height: 750px;
+}
+
+.separator2 {
+  position: absolute;
+  left: 30%;
+}
+
+.imgsection2  {
+    height: 750px;
+    /*width: 745px;*/
+    object-fit: cover;
+  }
+
+  .sectionleft2{
+    width: 100%;
+    margin-left: 7%;
+    margin-right: 5%;
+
+  }
+
+#section4 p{
+  font-family: 'Open-sans';
+  font-weight: 400;
+  color: #333333;
+  letter-spacing: 0.54px;
+}
+
+#section4 button {
+  display: flex;
+  flex-direction: column;
+  width: 263px !important;
+  height: 52px !important;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+#section4 h3{
+  margin-bottom: 55px;
+  font-family: 'kanit';
+  font-weight: 600;
+  font-size: 34px;
+  margin: 0;
+}
+
+#section4 h4{
+  font-family: 'Kanit';
+  font-weight:300;
+  font-size: 20px;
+  color: #6D727B ;  
+  margin: 0;
+  letter-spacing: 3.4px;
+}
+
+#contact {
+  display: flex;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.column {
+  flex: 1; 
+  padding: 20px; 
+
+}
+
+.contacttitle {
+  margin-left: 8%;
+}
+
+
+
+.opening-hours {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px; /* Ajoutez un espacement intérieur selon vos besoins */
+}
+
+.left-column, .right-column {
+  flex: 1;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+p {
+  margin: 0; /* Supprimez la marge par défaut des paragraphes */
+}
+
